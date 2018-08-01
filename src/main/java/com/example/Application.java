@@ -84,7 +84,7 @@ public class Application {
         if(System.getenv("DATABASE_URL") != null) {
             dbUri = new URI(System.getenv("DATABASE_URL"));
         }else {
-            String DATABASE_URL = "postgres://ubuntu:ubuntu@localhost:5432/userdb";
+            String DATABASE_URL = "postgres://zjyqrkmannltqu:ce2f1ecf34cb945da8cad4d8049c728d724282ba0ae852df0e41c103d9e76d42@ec2-54-227-240-7.compute-1.amazonaws.com:5432/dccjt09j079a8n";
             dbUri = new URI(DATABASE_URL);
         }
 
